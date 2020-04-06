@@ -43,8 +43,8 @@ h1, h2, h3, button {
   font-size: 1.61rem;
   font-family: 'Raleway',serif;
   color: hsl(243, 87%, 12%);
-  margin-right: 2.2rem;
-  font-weight: 500;
+  margin-right: 2.18rem;
+  font-weight: 600;
 }
 
 .item {
@@ -56,3 +56,38 @@ h1, h2, h3, button {
 }
 
 /* End of Navbar */
+
+/* Header-Section */
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 5rem;
+  width: 100%;
+}
+
+.header-content {
+  width: 50%;
+  margin-top: 8.6rem;
+}
+
+.header-heading {
+  font-size: 4rem;
+  font-family: 'Raleway',serif;
+  line-height: 6rem;
+  margin-left: 7.9rem;
+  font-weight: 800;
+}
+
+.header-img {
+  width: 50%;
+}
+
+.main-img {
+  width: 64.1rem;
+  margin-top: 3.5rem;
+}
+
+
+/* End of header-section */
