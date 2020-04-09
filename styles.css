@@ -69,15 +69,6 @@ h1, h2, h3, button {
 
 .header-content {
   width: 50%;
-  margin-top: 8.6rem;
-}
-
-.header-heading {
-  font-size: 4rem;
-  font-family: 'Raleway',serif;
-  line-height: 6rem;
-  margin-left: 7.9rem;
-  font-weight: 800;
 }
 
 .header-img {
@@ -89,5 +80,62 @@ h1, h2, h3, button {
   margin-top: 3.5rem;
 }
 
+.header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.header-heading {
+  padding-top: 8.5rem;
+  font-size: 3.96rem;
+  color: #1F0045;
+  font-family: 'Raleway',serif;
+  line-height: 6rem;
+  margin-left: 7.9rem;
+  font-weight: 800;
+  margin-bottom: 0;
+}
+
+.header-para {
+  padding-right: 5rem;
+  margin-left: 7.9rem;
+  font-size: 1.81rem;
+  margin-top: 1.6rem;
+  color: #2A2532;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 8rem;
+  margin-top: .6rem;
+}
+
+.email-main {
+  outline: none;
+  border-radius: .1rem;
+  font-size: 1.5rem;
+  color: #C0C0C0;
+  padding-left: 2rem;
+  border: solid .1rem #1F0045;
+  width: 29.8rem;
+  height: 4.2rem;
+}
+
+.header-btn {
+  margin-left: 1.55rem;
+  outline: none;
+  border: none;
+  width: 20rem;
+  height: 4.5rem;
+  font-size: 1.45rem;
+  font-weight: 700;
+  background-color: #4738FB;
+  color: #fff;
+}
 
 /* End of header-section */
