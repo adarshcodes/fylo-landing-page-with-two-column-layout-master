@@ -146,3 +146,49 @@ h1, h2, h3, button {
 }
 
 /* End of header-section */
+
+/* Middle-Section */
+
+.middle-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle-content {
+  width: 50%;
+}
+
+.middle-illustration {
+  width: 50%;
+}
+
+.illustration-2 {
+  width: 52rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* End of middle section */
