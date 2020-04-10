@@ -42,13 +42,14 @@ h1, h2, h3, button {
   padding: 0;
   font-size: 1.61rem;
   font-family: 'Raleway',serif;
-  color: hsl(243, 87%, 12%);
+  color: #61538F;
   margin-right: 2.18rem;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .item {
   margin-right: 5.65rem;
+  cursor: pointer;
 }
 
 .main-logo {
@@ -121,7 +122,7 @@ h1, h2, h3, button {
   font-size: 1.5rem;
   color: #C0C0C0;
   padding-left: 2rem;
-  border: solid .1rem #1F0045;
+  border: solid .1rem #61538F;
   width: 29.8rem;
   height: 4.2rem;
 }
@@ -136,6 +137,12 @@ h1, h2, h3, button {
   font-weight: 700;
   background-color: #4738FB;
   color: #fff;
+  cursor: pointer;
+  transition: all .5s;
+}
+
+.header-btn:hover {
+  background-color: #4175F6;
 }
 
 /* End of header-section */
